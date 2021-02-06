@@ -3,7 +3,7 @@ import gallery from "./gallery-items.js"
 const refs = {
 gallery: document.querySelector('.js-gallery'),
 lightbox: document.querySelector('.lightbox'),
-lightboxBtn: document.querySelector('button[data-action="close-lightbox"]'),
+lightboxBtn: document.querySelector('[data-action="close-lightbox"]'),
 modal: document.querySelector('.lightbox__image'),
 lightbox___img: document.querySelector('.lightbox___image'),
 
